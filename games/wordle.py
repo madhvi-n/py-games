@@ -46,7 +46,7 @@ class Wordle:
         for index, char in enumerate(user_guess):
             if char in self.word:
                 if char == self.word[index]:
-                    char = f"[magenta]{char.upper()}[/]"
+                    char = f"[bold green]{char.upper()}[/]"
                 else:
                     char = f"[yellow]{char}[/]"
             self.guess_dict[self.length - self.num_guesses][index] = char
