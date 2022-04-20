@@ -4,6 +4,7 @@ Python based 2D games
 ## List of games
 - [x] Rock paper scissors
 - [x] Wordle
+- [x] Guess the number
 - [ ] Tic Tac Toe
 - [ ] Sudoku
 - [ ] Yahtzee
