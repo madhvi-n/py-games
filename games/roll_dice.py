@@ -50,6 +50,7 @@ DIE_HEIGHT = len(DICE_ART[1])
 DIE_WIDTH = len(DICE_ART[1][0])
 DIE_FACE_SEPARATOR = " "
 
+
 class RollDice:
     def __init__(self):
         self.counter = 6
